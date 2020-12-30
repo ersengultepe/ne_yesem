@@ -41,21 +41,21 @@ class _YemekSayfasiState extends State<YemekSayfasi> {
   int yemekNo = 1;
   int tatliNo = 1;
 
-  var yemekler = [
+  List<String> yemekler = [
     'Karnı Yarık',
     'Mantı',
     'Kuru Fasulye',
     'İçli Köfte',
     'Alabalık'
   ];
-  var tatlilar = [
+  List<String> tatlilar = [
     'Tel Kadayıf',
     'Fıstıklı Baklava',
     'Muhallebi',
     'Kazandibi',
     'Dondurma'
   ];
-  var corbalar = [
+  List<String> corbalar = [
     'Mercimek Çorbası',
     'Domates Çorbası',
     'Tavuk Çorbası',
